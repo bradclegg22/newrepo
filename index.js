@@ -146,7 +146,7 @@ function computeOperation(res, type, weight) {
     if(type == "letterStamped"){
     type = "Letter(stamped)";
     }
-    else if(type == "letterM"){
+    else if(type == "letterMetered"){
         type = "Letter (metered)";
   }
     else if(type == "largeFlats"){
