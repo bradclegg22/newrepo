@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
   app.get('/calculateRate' calculateRate);
   app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
 
-  function (req, res)
+  function calculateRate (req, res)
 {
     
 }
