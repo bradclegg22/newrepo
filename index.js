@@ -137,7 +137,7 @@ function computeOperation(res, type, weight) {
         else if(weight <= 12) {
             result = "5.30";
         }
-        else if(weight <= 13) {
+        else {
             result = "5.90";
         }
     }
